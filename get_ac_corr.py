@@ -10,7 +10,7 @@ class AC_Corr(object):
         layer_key: At which layer to compute the AC-Corr
     """
 
-    def __init__(self, source_info: dict, target_info: dict, layer_key):
+    def __init__(self, source_info: dict, target_info: dict, layer_key: list):
         self.source_model_path = source_info['model_path']
         self.target_model_path = target_info['model_path']
         self.source_prefix = source_info['prefix']
