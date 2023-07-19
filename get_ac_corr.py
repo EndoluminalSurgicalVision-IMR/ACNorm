@@ -42,7 +42,7 @@ class AC_Corr(object):
             for layer in self.layer_key:
                 if layer in k:
                     #if 'up_conv' not in k:
-                    start = len(layer) #+ 7
+                    start = len(layer)
                     if k[:start] not in layer_names:
                         layer_names.append(k[:start])
 
