@@ -3,7 +3,7 @@
 Chuyan Zhang, Yuncheng Yang, Xin You, Hao Zheng, Yun Gu, "AC-Norm: Effective Tuning for Medical Image Analysis via Affine Collaborative Normalization"
 
 ## Introduction
-We propose the AC-Norm as a new normalization technique tailored for effective fine-tuning. Besides, a metric called AC-Corr is introduced to perform fast transferability estimation among a zoo of pretrained models.
+We propose the AC-Norm as a new normalization technique tailored for effective fine-tuning. Besides, a metric called AC-Corr is introduced for fast transferability estimation among a zoo of pretrained models.
 
 ## How to perform fine-tuning?
 In your own model, replace the original BatchNorm module with AC-Norm module in affine_co_norm.py.
