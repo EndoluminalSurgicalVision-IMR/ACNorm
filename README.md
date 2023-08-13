@@ -8,6 +8,6 @@ We propose the AC-Norm as a new normalization technique tailored for effective f
 ## How to perform fine-tuning?
 In your own model, replace the original BatchNorm module with AC-Norm module in affine_co_norm.py.
 
-## How to perform transferability estimation
+## How to perform transferability estimation?
 After a fast one-epoch fine-tuning, run get_ac_corr.py to get the estimated transferability value. Then, you can rank the 
 transferability values of diverse pretrained models (self-supervised learned via different pretext tasks or fully supervised learned on different datasets) and pick the best one for continual fine-tuning.
