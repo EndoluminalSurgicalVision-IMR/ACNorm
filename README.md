@@ -1,6 +1,4 @@
 # ACNorm
-## The code of our paper:
-"AC-Norm: Effective Tuning for Medical Image Analysis via Affine Collaborative Normalization"
 
 ## Introduction
 We propose the AC-Norm as a new normalization technique tailored for effective fine-tuning. Besides, a metric called AC-Corr is introduced for fast transferability estimation among a zoo of pretrained models.
